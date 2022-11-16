@@ -1,0 +1,40 @@
+.footer {
+  background: var(--hero--bg--color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__container {
+  display: flex;
+}
+
+.logo__footer {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.logo__footer-part {
+ color: var(--white--title--color);
+}
+
+.address__link {
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--footer--text-color);
+  line-height: calc(24 / 14);
+
+  display: inline-block;
+  margin-top: 9px;
+
+  transition: color var(--transition--time);
+
+  &:hover,
+  &:focus {
+    color: var(--logo--primary--color);
+  }
+}
+
+.physical {
+  color: var(--white--title--color);
+  margin-top: 0;
+}
