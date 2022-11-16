@@ -679,7 +679,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-.logo__footer-part {
+.logo__part--white {
   color: var(--white--title--color);
 }
 
@@ -696,7 +696,7 @@ textarea {
   color: var(--logo--primary--color);
 }
 
-.physical {
+.address__link--white {
   color: var(--white--title--color);
   margin-top: 0;
 }
@@ -715,7 +715,7 @@ textarea {
   margin-top: 12px;
 }
 
-.join__social {
+.social__link--grey {
   color: var(--white--title--color);
   background-color: rgba(255, 255, 255, 0.1);
 }

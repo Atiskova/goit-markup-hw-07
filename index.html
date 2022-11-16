@@ -27,7 +27,9 @@
           <ul class="site-nav list">
             <li>
               <div class="site-nav__item">
-                <a class="site-nav__link link current" href="./index.html">Студія</a>
+                <a class="site-nav__link link current" href="./index.html"
+                  >Студія</a
+                >
               </div>
             </li>
             <li>
@@ -404,13 +406,13 @@
       <div class="container footer__container">
         <div>
           <a class="logo logo__footer" href="/"
-            >Web<span class="logo__footer-part">Studio</span></a
+            >Web<span class="logo__part logo__part--white">Studio</span></a
           >
           <address>
             <ul class="address list">
               <li>
                 <a
-                  class="address__link physical link"
+                  class="address__link address__link--white link"
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
@@ -435,28 +437,28 @@
           <h2 class="join__title">приєднуйтесь</h2>
           <ul class="social list">
             <li>
-              <a class="social__link join__social" href="">
+              <a class="social__link social__link--grey" href="">
                 <svg class="social__icon" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social__link join__social" href="">
+              <a class="social__link social__link--grey" href="">
                 <svg class="social__icon" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social__link join__social" href="">
+              <a class="social__link social__link--grey" href="">
                 <svg class="social__icon" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social__link join__social" href="">
+              <a class="social__link social__link--grey" href="">
                 <svg class="social__icon" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -464,26 +466,26 @@
             </li>
           </ul>
         </div>
- <!----------------------------------- розсилкa ------------------------------------------>
- <div class="mailing">
-  <h2 class="mailing__title">Підпишіться на розсилку</h2>
-  <div class="mailing__content">
-    <textarea
-      class="mailing__input"
-      name="email"
-      id="email"
-      rows="1"
-      placeholder="E-mail"
-    ></textarea>
-    <button class="btn mailing__button" type="submit">
-      Підписатися<svg class="mailing-icon" width="24px" height="24px">
-        <use href="./images/sprite.svg#icon-send"></use>
-      </svg>
-    </button>
-  </div>
-</div>
-</div>
-</footer>
+        <!----------------------------------- розсилкa ------------------------------------------>
+        <div class="mailing">
+          <h2 class="mailing__title">Підпишіться на розсилку</h2>
+          <div class="mailing__content">
+            <textarea
+              class="mailing__input"
+              name="email"
+              id="email"
+              rows="1"
+              placeholder="E-mail"
+            ></textarea>
+            <button class="btn mailing__button" type="submit">
+              Підписатися<svg class="mailing-icon" width="24px" height="24px">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!--------------------------------------- modal --------------------------------------------------->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -501,12 +503,12 @@
                 <input class="form-input" type="text" name="name" id="name" />
                 <svg class="form-icon" width="18" height="18">
                   <use href="./images/sprite.svg#icon-name"></use>
-                </svg>  
+                </svg>
               </div>
             </li>
             <li class="form-field">
               <label class="form-label" for="tel">Телефон</label>
-              <div  class="input-wrap">
+              <div class="input-wrap">
                 <input class="form-input" type="tel" name="tel" id="tel" />
                 <svg class="form-icon" width="18" height="18">
                   <use href="./images/sprite.svg#icon-tel"></use>
@@ -515,8 +517,13 @@
             </li>
             <li class="form-field">
               <label class="form-label" for="email">Пошта</label>
-              <div  class="input-wrap">
-                <input class="form-input" type="email" name="email" id="email" />
+              <div class="input-wrap">
+                <input
+                  class="form-input"
+                  type="email"
+                  name="email"
+                  id="email"
+                />
                 <svg class="form-icon" width="18" height="18">
                   <use href="./images/sprite.svg#icon-mail"></use>
                 </svg>
@@ -541,7 +548,7 @@
                 name="policy"
                 id="policy"
               />
-              Погоджуюся з розсилкою та приймаю&nbsp; 
+              Погоджуюся з розсилкою та приймаю&nbsp;
               <a class="check-link link" href="">&nbsp;Умови договору</a></label
             >
           </div>
